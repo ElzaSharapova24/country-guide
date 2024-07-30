@@ -24,37 +24,41 @@ function CountryInfo() {
 
     return (
         <>
-            <section className='flex'>
-                <BackButton/>
-                <ul className='flex-wrap'>
-                    <h1>{country.name.common}</h1>
-                    <li className='flex-wrap'>
-                        <strong>Оффициальное название страны: </strong>
-                        <span className=''>{country.name.official}</span>
-                    </li>
-                    <li className='flex-wrap'>
-                        <strong>Общее название страны: </strong>
-                        <span>{country.name.common}</span>
-                    </li>
-                    <li className='flex-wrap'>
-                        <strong>Столитца: </strong>
-                        <span>{country.capital}</span>
-                    </li>
-                    <li className='flex-wrap'>
-                        <strong>Население: </strong>
-                        <span>{country.population}</span>
-                    </li>
-                    <li className='flex-wrap'>
-                        <strong>Регион: </strong>
-                        <span>{country.region}</span>
-                    </li>
-                    <li className='flex-wrap'>
-                        <strong>Начало недели: </strong>
-                        <span>{country.startOfWeek}</span>
-                    </li>
-                </ul>
-                <img className='' src={country.flags.png} alt={country.name.common}/>
-            </section>
+            {
+                country ? (
+                    <section className='flex'>
+                        <BackButton/>
+                        <ul className='flex-wrap'>
+                            <h1>{country.name.common}</h1>
+                            <li className='flex-wrap'>
+                                <strong>Оффициальное название страны: </strong>
+                                <span className=''>{country.name.official}</span>
+                            </li>
+                            <li className='flex-wrap'>
+                                <strong>Общее название страны: </strong>
+                                <span>{country.name.common}</span>
+                            </li>
+                            <li className='flex-wrap'>
+                                <strong>Столитца: </strong>
+                                <span>{country.capital}</span>
+                            </li>
+                            <li className='flex-wrap'>
+                                <strong>Население: </strong>
+                                <span>{country.population}</span>
+                            </li>
+                            <li className='flex-wrap'>
+                                <strong>Регион: </strong>
+                                <span>{country.region}</span>
+                            </li>
+                            <li className='flex-wrap'>
+                                <strong>Начало недели: </strong>
+                                <span>{country.startOfWeek}</span>
+                            </li>
+                        </ul>
+                        <img className='' src={country.flags.png} alt={country.name.common}/>
+                    </section>
+                ) : <Loader/>
+            }
         </>
     );
 }
