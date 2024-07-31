@@ -55,7 +55,10 @@ function CountryInfo() {
                                 <span>{country.startOfWeek}</span>
                             </li>
                         </ul>
-                        <img className='' src={country.flags.png} alt={country.name.common}/>
+                        <div className='flex-wrap'>
+                            <strong>Флаг страны</strong>
+                            <img className='' src={country.flags.png} alt={country.name.common}/>
+                        </div>
                     </section>
                 ) : <Loader/>
             }
