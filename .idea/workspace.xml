@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4bc31bf-a5ee-475a-8a16-ea3b53045083" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/my-app/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/country-info/country-info.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/country-info/country-info.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="c4bc31bf-a5ee-475a-8a16-ea3b53045083" name="Changes" comment="modify files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,6 +61,7 @@
     "nodejs_package_manager_path": "npm",
     "npm.build:css.executor": "Run",
     "npm.dev.executor": "Run",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "ts.external.directory.path": "C:\\Users\\марр\\OneDrive\\Рабочий стол\\test\\my-app\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -159,8 +154,17 @@
       <workItem from="1722356662514" duration="5720000" />
       <workItem from="1722421727450" duration="630000" />
       <workItem from="1722422401167" duration="52000" />
-      <workItem from="1722423865898" duration="244000" />
+      <workItem from="1722423865898" duration="547000" />
     </task>
+    <task id="LOCAL-00001" summary="modify files">
+      <option name="closed" value="true" />
+      <created>1722424165006</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722424165006</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,10 +175,26 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="modify files" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify files" />
   </component>
 </project>
