@@ -8,7 +8,7 @@ export interface Country {
     ccn3: string;
     region: string;
     population: number;
-    flags:{
+    flags: {
         png: string,
         svg: string,
     };

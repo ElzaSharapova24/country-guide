@@ -10,7 +10,7 @@ import "./app.css"
 function App() {
     const [countries, setCountries] = useState<Country[] | null>(null);
     useEffect(() => {
-        getCountries().then((countries:Country[] | null) => setCountries(countries))
+        getCountries().then((countries: Country[] | null) => setCountries(countries))
     }, []);
 
     return (
